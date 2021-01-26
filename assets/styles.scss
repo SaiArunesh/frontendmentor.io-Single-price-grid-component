@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+$cyan: hsl(179, 62%, 43%);
+$bright-yellow: hsl(71, 73%, 54%);
+$light-gray: hsl(204, 43%, 93%);
+$grayish-blue: hsl(218, 22%, 67%);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blue;
+}
+
+.container {
+    width: 640px;
+    height: 470px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    height: 470px;
+    flex-wrap: wrap;
+
+}
+
+.top {
+    background-color: white;
+    padding: 20px 0px 20px 20px;
+    height: 45%;
+    align-self: stretch;
+    h2 {
+        color: $cyan;
+        font-weight: 700;
+    }
+    h3 {
+        color: $bright-yellow;
+        font-weight: 700;
+
+    }
+    p {
+        color: $grayish-blue;
+        font-weight: 400;
+
+    }
+}
+
+.bottom {
+    background:linear-gradient(to right,$cyan 50%,$bright-yellow 50%);
+
+    height: 55%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left {
+    padding: 20px 0px 20px 20px;
+    flex: 1 1 95%;
+    max-width: 300px;
+
+    h6{
+        color: white;
+        font-weight: 400;
+    }
+    h3{
+        color: white;
+
+        font-weight: 700;
+    }
+    p{
+        color:$light-gray;
+    }
+    .btn{
+        background-color: $bright-yellow;
+        border-radius: 5px;
+        width:75%;
+        height:80px;
+        margin:0 auto;
+    }
+}
+
+.right {
+    padding: 20px 0px 20px 20px;
+    flex: 1 1 95%;
+    max-width: 300px;
+
+    h3{
+        font-weight: 700;
+        color:white;
+
+    }
+    ul{
+        list-style: none;
+        color:white;
+    }
+}
