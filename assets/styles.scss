@@ -101,8 +101,8 @@ body {
         background-color: $bright-yellow;
         border-radius: 5px;
         height: 50px;
-        margin: 0 auto;
-        width: 250px;
+        margin: 0 25%;
+        width: 200px;
         border: none;
         color: white;
         box-shadow: 5px 10px 10px -10px black;
@@ -143,6 +143,10 @@ body {
     .left{
         padding: 20px 0px 0px 0px;
         margin:0px 0px 0px -20px;
+        .btn{
+            margin: 0;
+
+        }
     }
     .right{
         padding: 0px 0px 0px 0px;
