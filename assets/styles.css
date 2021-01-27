@@ -47,7 +47,7 @@ body {
 
 .top {
   background-color: white;
-  padding: 20px 0px 20px 20px;
+  padding: 30px 0px 30px 30px;
   height: 45%;
   -ms-flex-item-align: stretch;
       -ms-grid-row-align: stretch;
@@ -94,7 +94,7 @@ body {
 }
 
 .left {
-  padding: 20px 0px 0px 40px;
+  padding: 30px 0px 0px 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -150,7 +150,7 @@ body {
 }
 
 .right {
-  padding: 20px 0px 0px 40px;
+  padding: 15px 0px 0px 40px;
   min-width: 250px;
   max-width: 250px;
   margin-left: 20px;
@@ -182,6 +182,13 @@ body {
   .card {
     width: initial;
     height: initial;
+  }
+  .left {
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 0px -20px;
+  }
+  .right {
+    padding: 0px 0px 0px 0px;
   }
 }
 

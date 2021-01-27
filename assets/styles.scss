@@ -35,7 +35,7 @@ body {
 
 .top {
     background-color: white;
-    padding: 20px 0px 20px 20px;
+    padding: 30px 0px 30px 30px;
     height: 45%;
     align-self: stretch;
     border-radius: 10px 10px 0px 0px;
@@ -68,7 +68,7 @@ body {
 }
 
 .left {
-    padding:20px 0px 0px 40px;
+    padding:30px 0px 0px 40px;
     display: flex;
     flex-direction: column;
     margin: -2% 0 0 -15%;
@@ -110,7 +110,7 @@ body {
 }
 
 .right {
-    padding:20px 0px 0px 40px;
+    padding:15px 0px 0px 40px;
     min-width: 250px;
     max-width: 250px;
     margin-left: 20px;
@@ -139,6 +139,16 @@ body {
     .card {
         width: initial;
         height: initial;
+    }
+    .left{
+        padding: 20px 0px 0px 0px;
+        margin:0px 0px 0px -20px;
+    }
+    .right{
+        padding: 0px 0px 0px 0px;
+        
+
+
     }
 }
 @media screen and (max-width: 582px) {
