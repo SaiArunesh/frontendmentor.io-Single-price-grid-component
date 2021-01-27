@@ -186,9 +186,10 @@ body {
   .left {
     padding: 20px 0px 0px 0px;
     margin: 0px 0px 0px -20px;
+    width: 100%;
   }
   .left .btn {
-    margin: 0;
+    width: 100%;
   }
   .right {
     padding: 0px 0px 0px 0px;
@@ -205,15 +206,19 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
   }
   .left {
     padding: 20px;
     margin: 0px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+  }
+  .left .btn {
+    margin: 0 auto;
   }
   .right {
     padding: 20px;
