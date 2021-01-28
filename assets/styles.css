@@ -176,6 +176,7 @@ body {
 
 @media screen and (max-width: 652px) {
   .container {
+    overflow: auto;
     width: initial;
     height: initial;
   }
